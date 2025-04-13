@@ -32,4 +32,4 @@ ESTRUCTURA:
 - src/test/resources/features → contiene el archivo .feature
 - pom.xml → archivo de configuración del proyecto con Serenity y dependencias
 
-AUTOR: Mónica Bustamante
+AUTORA: Mónica Bustamante
