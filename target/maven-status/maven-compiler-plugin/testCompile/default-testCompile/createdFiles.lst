@@ -1,0 +1,9 @@
+tasks/VisualizarCarrito.class
+ui/HomePage.class
+tasks/CheckoutInvitado.class
+definitions/FlujoCompraStepDefinitions.class
+tasks/AbrirNavegador.class
+tasks/AgregarProductos.class
+runners/FlujoCompraRunner.class
+tasks/CompletarDatosInvitado.class
+questions/ConfirmacionOrden.class
