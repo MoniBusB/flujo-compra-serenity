@@ -1,0 +1,15 @@
+CONCLUSIONES DEL EJERCICIO
+
+Una de las principales enseñanzas obtenidas de este ejercicio fue comprender la estructura modular que propone Serenity BDD. Esta herramienta organiza los proyectos en capas como; tasks, questions, definitions, entre otras, permitiendo mantener un código limpio, legible y fácilmente reutilizable. Esta arquitectura favorece el mantenimiento y la escalabilidad de las pruebas automatizadas.
+
+Por ejemplo, una task, representa una acción concreta del usuario (como agregar productos al carrito o completar un formulario), mientras que una question, se encarga de verificar condiciones o resultados esperados (como la confirmación de un pedido). Esta separación clara de responsabilidades hace que el flujo de prueba sea más comprensible tanto para perfiles técnicos como no técnicos.
+
+Durante el desarrollo, se volvió clave el entendimiento del lenguaje Gherkin para describir escenarios de usuario en lenguaje natural, y su posterior mapeo con métodos en Java. Esto permitió implementar una prueba E2E que simula el flujo completo de compra en la página de OpenCart, incluyendo agregar productos, visualizar el carrito, hacer checkout como invitado y validar la confirmación del pedido.
+
+Uno de los desafíos más interesantes fue el manejo de elementos en la interfaz web, ya que muchos no contaban con identificadores únicos (`id`). Esto me llevó a explorar otras estrategias de localización como selectores CSS, además de implementar comandos como Scroll.to() y WaitUntil, para asegurar que los elementos estuvieran visibles y disponibles antes de interactuar con ellos, evitando así errores de sincronización.
+
+Además, Serenity genera un reporte detallado y visual al finalizar la ejecución, en formato HTML, que resulta muy útil para análisis, seguimiento y presentación de resultados. Con solo un comando, es posible ejecutar todo el flujo de prueba y obtener una documentación automatizada de la ejecución.
+
+En resumen, Serenity BDD me permitió integrar conocimientos sobre automatización de pruebas, estructura de código, mapeo de escenarios y manejo de UI, brindándome una experiencia completa y enriquecedora como QA.
+
+AUTORA: Mónica Bustamante
